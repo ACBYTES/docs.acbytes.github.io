@@ -11,7 +11,7 @@ tags: [unreal,ue4,ue5,interp,interpolation,lerper,c++]
 
 Lerper ticker is a `UActorComponent`, attached to an actor, created in the main `GameMode` so that each level has `Lerp Ticker` instantiated.
 
-```cpp - Header
+```cpp
 #pragma once
 
 #include "CoreMinimal.h"
@@ -52,7 +52,7 @@ private:
 > `BindTickFunction` is now implicitly `inline`d. Declaration and implementation of template types is only possible in the header file.
 {: .prompt-tip}
 
-```cpp - Source
+```cpp
 #include "ACBGMLerpTicker.h"
 
 UACBGMLerpTicker* UACBGMLerpTicker::Active;
